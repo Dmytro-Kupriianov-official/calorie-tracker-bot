@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Secrets and Credentials
+credentials.json
+*.pem
+*.key
+
+# IDE settings
+.vscode/
+.idea/
